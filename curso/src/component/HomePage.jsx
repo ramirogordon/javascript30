@@ -1,15 +1,10 @@
 import React from 'react';
-import NavBar from './NavBar';
-import '../Styles/HomePage.css';
+import '../Styles/HomePage.scss';
 
 const HomePage = () => {
   return (
-    <div>
-      <div>
-        <NavBar />    
-      </div>
-      
-      <h1>Hi!!!</h1>
+    <div className="home-page">
+      <h1>Welcome to Home Page!!!</h1>
     </div>
   )
 }

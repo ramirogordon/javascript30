@@ -1,101 +1,101 @@
 import React from 'react'
 import {Link} from 'react-router-dom';
-import '../Styles/NavBar.css';
+import '../Styles/NavBar.scss';
 
 const NavBar = () => {
   return (
     <div className="navbar">
         <ul>
-            <li>
-                <Link to="/javascript-drum-kit">JavaScript Drum Kit</Link>
-            </li>
-            <li>
-                <Link to="/javascript-drum-kit">JavaScript Drum Kit</Link>
-            </li>
-            <li>
-                <Link to="/javascript-drum-kit">JavaScript Drum Kit</Link>
-            </li>
-            <li>
-                <Link to="/javascript-drum-kit">JavaScript Drum Kit</Link>
-            </li>
-            <li>
-                <Link to="/javascript-drum-kit">JavaScript Drum Kit</Link>
-            </li>
-            <li>
-                <Link to="/javascript-drum-kit">JavaScript Drum Kit</Link>
-            </li>
-            <li>
-                <Link to="/javascript-drum-kit">JavaScript Drum Kit</Link>
-            </li>
-            <li>
-                <Link to="/javascript-drum-kit">JavaScript Drum Kit</Link>
-            </li>
-            <li>
-                <Link to="/javascript-drum-kit">JavaScript Drum Kit</Link>
-            </li>
-            <li>
-                <Link to="/javascript-drum-kit">JavaScript Drum Kit</Link>
-            </li>
-            <li>
-                <Link to="/javascript-drum-kit">JavaScript Drum Kit</Link>
-            </li>
-            <li>
-                <Link to="/javascript-drum-kit">JavaScript Drum Kit</Link>
-            </li>
-            <li>
-                <Link to="/javascript-drum-kit">JavaScript Drum Kit</Link>
-            </li>
-            <li>
-                <Link to="/javascript-drum-kit">JavaScript Drum Kit</Link>
-            </li>
-            <li>
-                <Link to="/javascript-drum-kit">JavaScript Drum Kit</Link>
-            </li>
-            <li>
-                <Link to="/javascript-drum-kit">JavaScript Drum Kit</Link>
-            </li>
-            <li>
-                <Link to="/javascript-drum-kit">JavaScript Drum Kit</Link>
-            </li>
-            <li>
-                <Link to="/javascript-drum-kit">JavaScript Drum Kit</Link>
-            </li>
-            <li>
-                <Link to="/javascript-drum-kit">JavaScript Drum Kit</Link>
-            </li>
-            <li>
-                <Link to="/javascript-drum-kit">JavaScript Drum Kit</Link>
-            </li>
-            <li>
-                <Link to="/javascript-drum-kit">JavaScript Drum Kit</Link>
-            </li>
-            <li>
-                <Link to="/javascript-drum-kit">JavaScript Drum Kit</Link>
-            </li>
-            <li>
-                <Link to="/javascript-drum-kit">JavaScript Drum Kit</Link>
-            </li>
-            <li>
-                <Link to="/javascript-drum-kit">JavaScript Drum Kit</Link>
-            </li>
-            <li>
-                <Link to="/javascript-drum-kit">JavaScript Drum Kit</Link>
-            </li>
-            <li>
-                <Link to="/javascript-drum-kit">JavaScript Drum Kit</Link>
-            </li>
-            <li>
-                <Link to="/javascript-drum-kit">JavaScript Drum Kit</Link>
-            </li>
-            <li>
-                <Link to="/javascript-drum-kit">JavaScript Drum Kit</Link>
-            </li>
-            <li>
-                <Link to="/javascript-drum-kit">JavaScript Drum Kit</Link>
-            </li>
-            <li>
-                <Link to="/javascript-drum-kit">JavaScript Drum Kit</Link>
-            </li>
+            <Link to="/HomePage">
+                <li>Home</li>
+            </Link>
+            <Link to="/javascript-drum-kit">
+                <li>JavaScript Drum Kit</li>
+            </Link>
+            <Link to="/clock">
+                <li>JS and CSS Clock</li>
+            </Link>
+            <Link to="/css-variables-with-js">
+                <li>Css Variables with JS</li>
+            </Link>
+            <Link to="/javascript-drum-kit">
+                <li>JavaScript Drum Kit</li>
+            </Link>
+            <Link to="/javascript-drum-kit">
+                <li>JavaScript Drum Kit</li>
+            </Link>
+            <Link to="/javascript-drum-kit">
+                <li>JavaScript Drum Kit</li>
+            </Link>
+            <Link to="/javascript-drum-kit">
+                <li>JavaScript Drum Kit</li>
+            </Link>
+            <Link to="/javascript-drum-kit">
+                <li>JavaScript Drum Kit</li>
+            </Link>
+            <Link to="/javascript-drum-kit">
+                <li>JavaScript Drum Kit</li>
+            </Link>
+            <Link to="/javascript-drum-kit">
+                <li>JavaScript Drum Kit</li>
+            </Link>
+            <Link to="/javascript-drum-kit">
+                <li>JavaScript Drum Kit</li>
+            </Link>
+            <Link to="/javascript-drum-kit">
+                <li>JavaScript Drum Kit</li>
+            </Link>
+            <Link to="/javascript-drum-kit">
+                <li>JavaScript Drum Kit</li>
+            </Link>
+            <Link to="/javascript-drum-kit">
+                <li>JavaScript Drum Kit</li>
+            </Link>
+            <Link to="/javascript-drum-kit">
+                <li>JavaScript Drum Kit</li>
+            </Link>
+            <Link to="/javascript-drum-kit">
+                <li>JavaScript Drum Kit</li>
+            </Link>
+            <Link to="/javascript-drum-kit">
+                <li>JavaScript Drum Kit</li>
+            </Link>
+            <Link to="/javascript-drum-kit">
+                <li>JavaScript Drum Kit</li>
+            </Link>
+            <Link to="/javascript-drum-kit">
+                <li>JavaScript Drum Kit</li>
+            </Link>
+            <Link to="/javascript-drum-kit">
+                <li>JavaScript Drum Kit</li>
+            </Link>
+            <Link to="/javascript-drum-kit">
+                <li>JavaScript Drum Kit</li>
+            </Link>
+            <Link to="/javascript-drum-kit">
+                <li>JavaScript Drum Kit</li>
+            </Link>
+            <Link to="/javascript-drum-kit">
+                <li>JavaScript Drum Kit</li>
+            </Link>
+            <Link to="/javascript-drum-kit">
+                <li>JavaScript Drum Kit</li>
+            </Link>
+            <Link to="/javascript-drum-kit">
+                <li>JavaScript Drum Kit</li>
+            </Link>
+            <Link to="/javascript-drum-kit">
+                <li>JavaScript Drum Kit</li>
+            </Link>
+            <Link to="/javascript-drum-kit">
+                <li>JavaScript Drum Kit</li>
+            </Link>
+            <Link to="/javascript-drum-kit">
+                <li>JavaScript Drum Kit</li>
+            </Link>
+            <Link to="/javascript-drum-kit">
+                <li>JavaScript Drum Kit</li>
+            </Link>
         </ul>
     </div>
   )

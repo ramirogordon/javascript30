@@ -2,18 +2,47 @@ import React from 'react'
 import '../Styles/CssVariablesJS.scss';
 
 const CssVariablesJS = () => {
+    const handleUpdate = (event) => {
+        const suffix = event.target.dataset.sizing || '';
+        document.documentElement.style.setProperty(`--${event.target.name}`, event.target.value + suffix);
+    }
+
     return (
         <div className="css-variables">
             <h2>Update Css Variables With <span className="h1">JS</span></h2>
             <div className="controls">
-                <label for="spacing">Spacing:</label>
-                <input id="spacing" type="range" name="spacing" min="10" max="200" value="30" data-sizing="px" />
+                <label htmlFor="spacing">Spacing:</label>
+                <input 
+                    id="spacing" 
+                    type="range" 
+                    name="spacing" 
+                    min="10" 
+                    max="52" 
+                    defaultValue="10" 
+                    data-sizing="px" 
+                    onChange={handleUpdate} 
+                />
             
-                <label for="blur">Blur:</label>
-                <input id="blur" type="range" name="blur" min="0" max="25" value="10" data-sizing="px" />
+                <label htmlFor="blur">Blur:</label>
+                <input 
+                    id="blur" 
+                    type="range" 
+                    name="blur" 
+                    min="0" 
+                    max="25" 
+                    defaultValue="10" 
+                    onChange={handleUpdate} 
+                    data-sizing="px" 
+                />
             
-                <label for="base">Base Color:</label>
-                <input id="base" type="color" name="base" value="#ffc600" />
+                <label htmlFor="base">Base Color:</label>
+                <input 
+                    id="base" 
+                    type="color" 
+                    name="base" 
+                    defaultValue="#ffc600" 
+                    onChange={handleUpdate} 
+                />
             </div>
 
             <img 

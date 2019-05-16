@@ -18,11 +18,11 @@ const NavBar = () => {
             <Link to="/css-variables-with-js">
                 <li>Css Variables with JS</li>
             </Link>
-            <Link to="/javascript-drum-kit">
-                <li>JavaScript Drum Kit</li>
+            <Link to="/array-cardio">
+                <li>Array Cardio Day 1</li>
             </Link>
-            <Link to="/javascript-drum-kit">
-                <li>JavaScript Drum Kit</li>
+            <Link to="/flex-panel">
+                <li>Flex Panel Gallery</li>
             </Link>
             <Link to="/javascript-drum-kit">
                 <li>JavaScript Drum Kit</li>

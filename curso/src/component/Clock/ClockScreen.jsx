@@ -1,5 +1,5 @@
 import React, {useEffect} from 'react'
-import '../Styles/ClockScreen.scss';
+import './ClockScreen.scss';
 
 const ClockScreen = () => {
     

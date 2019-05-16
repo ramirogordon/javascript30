@@ -1,5 +1,5 @@
 import React from 'react'
-import '../Styles/CssVariablesJS.scss';
+import './CssVariablesJS.scss';
 
 const CssVariablesJS = () => {
     const handleUpdate = (event) => {

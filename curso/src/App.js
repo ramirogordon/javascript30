@@ -7,6 +7,7 @@ import ClockScreen from './component/Clock/ClockScreen';
 import CssVariablesJS from './component/CssVariables/CssVariablesJS';
 import ArrayCardio from './component/ArrayCardio/ArrayCardio';
 import FlexPanel from './component/FlexPanelGallerry/FlexPanel';
+import TypeAhead from './component/TypeAhead/TypeAhead';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
           <Route exact path="/css-variables-with-js" component={CssVariablesJS} />
           <Route exact path="/array-cardio" component={ArrayCardio} />
           <Route exact path="/flex-panel" component={FlexPanel} />
+          <Route exact path="/type-ahead" component={TypeAhead} />
         </div>
       </Router>
     </div>

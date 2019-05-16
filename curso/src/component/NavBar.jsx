@@ -24,8 +24,8 @@ const NavBar = () => {
             <Link to="/flex-panel">
                 <li>Flex Panel Gallery</li>
             </Link>
-            <Link to="/javascript-drum-kit">
-                <li>JavaScript Drum Kit</li>
+            <Link to="/type-ahead">
+                <li>Type Ahead</li>
             </Link>
             <Link to="/javascript-drum-kit">
                 <li>JavaScript Drum Kit</li>

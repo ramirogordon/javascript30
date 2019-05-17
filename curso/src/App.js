@@ -8,6 +8,8 @@ import CssVariablesJS from './component/CssVariables/CssVariablesJS';
 import ArrayCardio from './component/ArrayCardio/ArrayCardio';
 import FlexPanel from './component/FlexPanelGallerry/FlexPanel';
 import TypeAhead from './component/TypeAhead/TypeAhead';
+import ArrayCardio02 from './component/ArrayCardio02/ArrayCardio02';
+import Canvas from './component/Canvas/Canvas';
 
 function App() {
   return (
@@ -21,6 +23,8 @@ function App() {
           <Route exact path="/array-cardio" component={ArrayCardio} />
           <Route exact path="/flex-panel" component={FlexPanel} />
           <Route exact path="/type-ahead" component={TypeAhead} />
+          <Route exact path="/array-cardio-02" component={ArrayCardio02} />
+          <Route exact path="/canvas" component={Canvas} />
         </div>
       </Router>
     </div>

@@ -27,11 +27,11 @@ const NavBar = () => {
             <Link to="/type-ahead">
                 <li>Type Ahead</li>
             </Link>
-            <Link to="/javascript-drum-kit">
-                <li>JavaScript Drum Kit</li>
+            <Link to="/array-cardio-02">
+                <li>Array Cardio Day 2</li>
             </Link>
-            <Link to="/javascript-drum-kit">
-                <li>JavaScript Drum Kit</li>
+            <Link to="/canvas">
+                <li>Fun with HTML5 Canvas</li>
             </Link>
             <Link to="/javascript-drum-kit">
                 <li>JavaScript Drum Kit</li>

@@ -39,8 +39,8 @@ const NavBar = () => {
             <Link to="/check-multiple-checkboxes">
                 <li>Hold Shift to Check Multiple Checkboxes</li>
             </Link>
-            <Link to="/javascript-drum-kit">
-                <li>JavaScript Drum Kit</li>
+            <Link to="/video-player">
+                <li>Custom HTML5 Video Player</li>
             </Link>
             <Link to="/javascript-drum-kit">
                 <li>JavaScript Drum Kit</li>

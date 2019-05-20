@@ -36,8 +36,8 @@ const NavBar = () => {
             <Link to="/javascript-drum-kit">
                 <li>JavaScript Drum Kit</li>
             </Link>
-            <Link to="/javascript-drum-kit">
-                <li>JavaScript Drum Kit</li>
+            <Link to="/check-multiple-checkboxes">
+                <li>Hold Shift to Check Multiple Checkboxes</li>
             </Link>
             <Link to="/javascript-drum-kit">
                 <li>JavaScript Drum Kit</li>

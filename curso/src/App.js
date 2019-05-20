@@ -10,6 +10,7 @@ import FlexPanel from './component/FlexPanelGallerry/FlexPanel';
 import TypeAhead from './component/TypeAhead/TypeAhead';
 import ArrayCardio02 from './component/ArrayCardio02/ArrayCardio02';
 import Canvas from './component/Canvas/Canvas';
+import MultipleCheckboxes from './component/CheckMultipleCheckboxes/MultipleCheckboxes';
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
           <Route exact path="/type-ahead" component={TypeAhead} />
           <Route exact path="/array-cardio-02" component={ArrayCardio02} />
           <Route exact path="/canvas" component={Canvas} />
+          <Route exact path="/check-multiple-checkboxes" component={MultipleCheckboxes} />
         </div>
       </Router>
     </div>

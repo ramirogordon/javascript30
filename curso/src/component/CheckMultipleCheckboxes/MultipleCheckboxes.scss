@@ -1,0 +1,29 @@
+.multiple-checkboxes {
+    width: 100%;
+    height: 100%;
+    background: #ffcc66;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .inbox {
+        background: #eeeeee;
+        border-radius: 5px;
+        width: 40%;
+        display: flex;
+        flex-direction: column;
+        -webkit-box-shadow: 4px 4px 13px -2px rgba(0,0,0,0.69);
+        -moz-box-shadow: 4px 4px 13px -2px rgba(0,0,0,0.69);
+        box-shadow: 4px 4px 13px -2px rgba(0,0,0,0.69);
+        .item {
+            padding: 3%;
+            display: flex;
+            input {
+                transition: 1s;
+                margin-right: 0.8rem;
+            }
+            input:checked + label {
+                text-decoration: line-through;
+            }
+        }
+    }
+}

@@ -42,11 +42,11 @@ const NavBar = () => {
             <Link to="/video-player">
                 <li>Custom HTML5 Video Player</li>
             </Link>
-            <Link to="/javascript-drum-kit">
-                <li>JavaScript Drum Kit</li>
+            <Link to="/konami-code">
+                <li>Key Sequence Detection (KONAMI CODE)</li>
             </Link>
-            <Link to="/javascript-drum-kit">
-                <li>JavaScript Drum Kit</li>
+            <Link to="/slide-scroll">
+                <li>Slide In on Scroll</li>
             </Link>
             <Link to="/javascript-drum-kit">
                 <li>JavaScript Drum Kit</li>

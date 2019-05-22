@@ -48,8 +48,8 @@ const NavBar = () => {
             <Link to="/slide-scroll">
                 <li>Slide In on Scroll</li>
             </Link>
-            <Link to="/javascript-drum-kit">
-                <li>JavaScript Drum Kit</li>
+            <Link to="/local-storage">
+                <li>Local Storage and Event Delegation</li>
             </Link>
             <Link to="/javascript-drum-kit">
                 <li>JavaScript Drum Kit</li>

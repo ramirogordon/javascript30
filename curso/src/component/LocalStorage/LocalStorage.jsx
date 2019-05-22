@@ -1,48 +1,54 @@
-import React, {useEffect} from 'react';
+import React, { useState, useEffect } from 'react';
 import './LocalStorage.scss';
+import PlateList from './PlateList';
 
 const LocalStorage = () => {
-    useEffect(() => {
-    
-        // componentDidMount(), componentDidUpdate()
-        const buttom = document.querySelector('.buttom');
+    const [items, setItems] = useState([]);
+
+    const handleSubmit = (e) => {
+        e.preventDefault();
+        const buttom = document.querySelector('.button');
+        const form = e.target;
+        var self = buttom;
+        console.dir(buttom);
+        self.disabled = true;
         
-        const handleClickSubmit = (e) => {
-            e.preventDefault();
-            console.dir(e.target);
-            var self = e.target;
-            setTimeout(() => {
-                console.log('loading');
-                self.defaultValue = '';
-                self.classList.toggle('loading');
-            }, 125);
+        setTimeout(() => {
+            self.defaultValue = '';
+            self.classList.toggle('loading');
+        }, 125);
 
-            setTimeout(() => {
-                console.log('ready');
-                self.classList.toggle('ready');
-                self.defaultValue = '✓';
-            }, 1500);
+        setTimeout(() => {
+            const text = (form.querySelector('[name=item]')).value;
+            const item = {
+                text,
+                done: false
+            };
+            setItems([...items, item]);
+            self.classList.toggle('ready');
+            self.defaultValue = '✓';
+            console.dir(buttom.disabled);
 
-            setTimeout(() => {
-                console.log('button');
-                self.defaultValue = '+ Add Item';
-                self.className = 'buttom';
-            }, 2500);
-        }
+            form.reset();
+        }, 1500);
 
-        buttom.addEventListener('click', handleClickSubmit);
-    }, []);
+        setTimeout(() => {
+            self.defaultValue = '+ Add Item';
+            self.className = 'button';
+            self.disabled = false;
+        }, 2500);
+    }
+
     return (
         <div className="local-storage-screen">
             <div className="form-content">
                 <h2>LOCAL TAPAS</h2>
-                <p></p>
                 <ul className="plates">
-                    <li>Loading Tapas...</li>
+                    <PlateList items={items} />
                 </ul>
-                <form>
+                <form className="add-items" onSubmit={handleSubmit}>
                     <input type="text" name="item" placeholder="Item Name" required />
-                    <input className="buttom" type="submit" value="+ Add Item" />
+                    <input className="button" type="submit" value="+ Add Item"  />
                 </form>
             </div>
         </div>

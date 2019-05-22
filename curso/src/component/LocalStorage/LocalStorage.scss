@@ -12,35 +12,43 @@
     align-items: center;
     text-align: center;
     .form-content {
-        width: 40%;
-        height: 50%;
-        max-width: 80%;
+        width: 35%;
+        max-height: 70%;
+        min-height: 30%;
         background-color: #eeeeee;
         box-shadow: 0 0 0 10px rgba(0,0,0,0.1);
         display: flex;
         flex-direction: column;
+        justify-content: space-between;
         h2{
-            margin: 0;
+            margin-top: 1rem;
         }
-        ul {
+        .plates {
             list-style: none;
+            margin: 0;
+            padding: 0;
+            display: block;
+            overflow: auto;
         }
         form {
             display: flex;
             justify-content: space-around;
+            padding-bottom: 1rem;
+            padding-top: 1rem;
             input[type="text"] {
                 padding: 0.8rem;
                 border: none;
                 // border-radius: 1rem;
                 border-color: transparent;
             }
-            .buttom {
+            .button {
                 width: 25%;
-                height: 30%;
+                height: 2rem;
                 color: #5585ff;
                 border: 2px solid #5585ff;
                 background-color: transparent;
                 border-radius: 1.5rem;
+                cursor: pointer;
                 font-size: 0.8rem;
                 outline: none;
                 transition: .5s;
@@ -52,7 +60,6 @@
                 width:2.25rem;
                 height:2.25rem;
             }
-
             .ready {
                 border-radius:50%;
                 color: #8cce1e;
@@ -64,7 +71,6 @@
         }
     }
     .form-content > * {
-        flex: 1;
         display: flex;
         justify-content: center;
         align-items: center;

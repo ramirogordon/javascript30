@@ -1,0 +1,15 @@
+.item-plate {
+    border-bottom: 1px solid rgba(0,0,0,0.2);
+    font-weight: 100;
+    display: flex;
+    justify-content: start;
+    margin: 10px 20px;
+    padding-bottom: 10px; 
+    .checkbox-value {
+        display: none;
+    }
+    .plate-value {
+        margin-left: 1rem;
+        text-transform: capitalize;
+    }
+}

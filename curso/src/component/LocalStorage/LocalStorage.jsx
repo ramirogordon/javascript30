@@ -7,35 +7,32 @@ const LocalStorage = () => {
 
     const handleSubmit = (e) => {
         e.preventDefault();
-        const buttom = document.querySelector('.button');
         const form = e.target;
-        var self = buttom;
-        console.dir(buttom);
-        self.disabled = true;
+        var button = form.button;
+        button.disabled = true;
         
         setTimeout(() => {
-            self.defaultValue = '';
-            self.classList.toggle('loading');
+            button.defaultValue = '';
+            button.classList.toggle('loading');
         }, 125);
 
         setTimeout(() => {
-            const text = (form.querySelector('[name=item]')).value;
+            const text = form.item.value;
             const item = {
                 text,
                 done: false
             };
             setItems([...items, item]);
-            self.classList.toggle('ready');
-            self.defaultValue = '✓';
-            console.dir(buttom.disabled);
+            button.classList.toggle('ready');
+            button.defaultValue = '✓';
 
             form.reset();
         }, 1500);
 
         setTimeout(() => {
-            self.defaultValue = '+ Add Item';
-            self.className = 'button';
-            self.disabled = false;
+            button.defaultValue = '+ Add Item';
+            button.className = 'button';
+            button.disabled = false;
         }, 2500);
     }
 
@@ -48,7 +45,7 @@ const LocalStorage = () => {
                 </ul>
                 <form className="add-items" onSubmit={handleSubmit}>
                     <input type="text" name="item" placeholder="Item Name" required />
-                    <input className="button" type="submit" value="+ Add Item"  />
+                    <input className="button" name="button" type="submit" value="+ Add Item"  />
                 </form>
             </div>
         </div>

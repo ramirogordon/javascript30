@@ -15,6 +15,7 @@ import VideoPlayer from './component/VideoPlayer/VideoPlayer';
 import KonamiCode from './component/KonamiCode/KonamiCode';
 import SlideOnScroll from './component/SlideScroll/SlideOnScroll';
 import LocalStorage from './component/LocalStorage/LocalStorage';
+import ShadowMouse from './component/ShadowMouse/ShadowMouse';
 
 function App() {
   return (
@@ -35,6 +36,7 @@ function App() {
           <Route exact path="/konami-code" component={KonamiCode} />
           <Route exact path="/slide-scroll" component={SlideOnScroll} />
           <Route exact path="/local-storage" component={LocalStorage} />
+          <Route exact path="/shadow-mouse" component={ShadowMouse} />
         </div>
       </Router>
     </div>

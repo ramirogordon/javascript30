@@ -51,8 +51,8 @@ const NavBar = () => {
             <Link to="/local-storage">
                 <li>Local Storage and Event Delegation</li>
             </Link>
-            <Link to="/javascript-drum-kit">
-                <li>JavaScript Drum Kit</li>
+            <Link to="/shadow-mouse">
+                <li>CSS Text Shadow Mouse Move Effect</li>
             </Link>
             <Link to="/javascript-drum-kit">
                 <li>JavaScript Drum Kit</li>

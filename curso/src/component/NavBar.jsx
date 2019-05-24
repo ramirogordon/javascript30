@@ -54,8 +54,8 @@ const NavBar = () => {
             <Link to="/shadow-mouse">
                 <li>CSS Text Shadow Mouse Move Effect</li>
             </Link>
-            <Link to="/javascript-drum-kit">
-                <li>JavaScript Drum Kit</li>
+            <Link to="/sorting">
+                <li>Sorting Band Names without articles</li>
             </Link>
             <Link to="/javascript-drum-kit">
                 <li>JavaScript Drum Kit</li>
